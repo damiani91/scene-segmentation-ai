@@ -1,0 +1,237 @@
+[
+  {
+    "characters": [
+      "The Man"
+    ],
+    "description": "A man in an apron meticulously prepares a pasta dish in a modern kitchen. He watches a pot on the stove, sets a kitchen timer, enjoys a glass of red wine, and then carefully plates the spaghetti with sauce, olive oil, cheese, and basil.",
+    "end_time": "01:00",
+    "genre": "Drama",
+    "mood": "Calm",
+    "name": "The Culinary Ritual",
+    "scene_number": 1,
+    "setting": "Modern Kitchen",
+    "start_time": "00:02"
+  },
+  {
+    "characters": [
+      "The Man"
+    ],
+    "description": "The man, now without his apron, sits at his dining table at night, admiring the pasta he just made. He smiles, talks animatedly to someone off-screen, raises his glass in a toast, and begins to eat with satisfaction.",
+    "end_time": "01:21",
+    "genre": "Drama",
+    "mood": "Joyful",
+    "name": "A Meal for One",
+    "scene_number": 2,
+    "setting": "Dining Room",
+    "start_time": "01:01"
+  },
+  {
+    "characters": [
+      "The Man"
+    ],
+    "description": "The same man, now in a sweater, enters the dining room looking pensive. He adjusts a decorative centerpiece on the table and then walks out of the room, turning off the light.",
+    "end_time": "01:38",
+    "genre": "Drama",
+    "mood": "Pensive",
+    "name": "Anxious Tidying",
+    "scene_number": 3,
+    "setting": "Dining Room",
+    "start_time": "01:22"
+  },
+  {
+    "characters": [
+      "The Janitor"
+    ],
+    "description": "The man, now dressed as a janitor, hoses down the entrance of a modern apartment building. After finishing, he coils the hose and looks up at the building's facade.",
+    "end_time": "02:01",
+    "genre": "Slice of life",
+    "mood": "Mundane",
+    "name": "The Janitor's Morning",
+    "scene_number": 4,
+    "setting": "Apartment Building Entrance",
+    "start_time": "01:39"
+  },
+  {
+    "characters": [
+      "Various Residents"
+    ],
+    "description": "A montage shows various people and families arriving at the apartment building, getting out of cars with luggage and shopping bags.",
+    "end_time": "02:17",
+    "genre": "Slice of life",
+    "mood": "Bustling",
+    "name": "The Arrival of Residents",
+    "scene_number": 5,
+    "setting": "Apartment Building Entrance",
+    "start_time": "02:02"
+  },
+  {
+    "characters": [
+      "The Janitor",
+      "Delivery Men",
+      "Female Resident"
+    ],
+    "description": "The janitor supervises two delivery men carrying a large 8K TV box into an apartment. A woman enters the room, and the janitor interacts with her and the delivery men.",
+    "end_time": "02:40",
+    "genre": "Drama",
+    "mood": "Neutral",
+    "name": "The New Television",
+    "scene_number": 6,
+    "setting": "Apartment Hallway and Dining Room",
+    "start_time": "02:18"
+  },
+  {
+    "characters": [
+      "The Janitor"
+    ],
+    "description": "The opening credits roll over stylized shots of Venus flytraps, the janitor polishing a metal plaque, and interactions with residents, culminating in the title card 'EL ENCARGADO'.",
+    "end_time": "03:29",
+    "genre": "Title Sequence",
+    "mood": "Mysterious",
+    "name": "Opening Credits",
+    "scene_number": 7,
+    "setting": "Various",
+    "start_time": "02:41"
+  },
+  {
+    "characters": [
+      "Eliseo",
+      "Zambrano",
+      "The Plumber",
+      "Residents"
+    ],
+    "description": "The janitor, Eliseo, is at his desk in the lobby, polishing a plaque. He has a tense, silent encounter with a resident, Zambrano. He then handles mail for another resident and speaks with a plumber outside.",
+    "end_time": "04:14",
+    "genre": "Drama",
+    "mood": "Tense",
+    "name": "Lobby Duties",
+    "scene_number": 8,
+    "setting": "Building Lobby",
+    "start_time": "03:30"
+  },
+  {
+    "characters": [
+      "Eliseo"
+    ],
+    "description": "At night, Eliseo, dressed in a suit, pushes a shopping cart full of garbage bags down a cobblestone street, interacting with homeless people and making what appears to be a clandestine exchange.",
+    "end_time": "04:50",
+    "genre": "Mystery",
+    "mood": "Gritty",
+    "name": "Night on the Streets",
+    "scene_number": 9,
+    "setting": "City Street at Night",
+    "start_time": "04:15"
+  },
+  {
+    "characters": [
+      "Eliseo",
+      "Female Resident"
+    ],
+    "description": "Eliseo has a friendly chat with a resident in the lobby. He then goes to the underground garage, stands before three cars, and uses a remote to unlock a blue one. He gets inside and inspects a small, hidden electronic device.",
+    "end_time": "05:40",
+    "genre": "Thriller",
+    "mood": "Secretive",
+    "name": "Garage Surveillance",
+    "scene_number": 10,
+    "setting": "Lobby and Parking Garage",
+    "start_time": "04:51"
+  },
+  {
+    "characters": [
+      "Eliseo",
+      "Female Residents"
+    ],
+    "description": "Eliseo goes to an apartment to do a repair. He snoops around, peeking into a bedroom at a sleeping woman and then accessing private photos and emails on a computer. He is confronted by another woman and quickly leaves.",
+    "end_time": "06:33",
+    "genre": "Thriller",
+    "mood": "Suspenseful",
+    "name": "The Intrusive Repairman",
+    "scene_number": 11,
+    "setting": "Apartment",
+    "start_time": "05:41"
+  },
+  {
+    "characters": [
+      "Eliseo",
+      "Zambrano",
+      "Woman"
+    ],
+    "description": "Eliseo has a tense, silent elevator ride with Zambrano. After they exit, Eliseo makes faces at his reflection before going to his rooftop dwelling and walking out to survey the city.",
+    "end_time": "07:23",
+    "genre": "Drama",
+    "mood": "Tense",
+    "name": "Elevator Games and Rooftop Views",
+    "scene_number": 12,
+    "setting": "Elevator and Rooftop",
+    "start_time": "06:34"
+  },
+  {
+    "characters": [
+      "Eliseo",
+      "New Residents",
+      "Zambrano"
+    ],
+    "description": "Eliseo puts on a friendly facade, welcoming a new resident and her son. He then continues his routine, sweeping outside and listening at an apartment door before another tense elevator ride with Zambrano.",
+    "end_time": "08:44",
+    "genre": "Drama",
+    "mood": "Deceptive",
+    "name": "The Facade",
+    "scene_number": 13,
+    "setting": "Building Lobby and Hallway",
+    "start_time": "07:24"
+  },
+  {
+    "characters": [
+      "Eliseo"
+    ],
+    "description": "In a hidden basement room, Eliseo listens to a residents' meeting via a hidden bug. The room is a surveillance hub, with walls covered in detailed information about every resident. He adds a cigarette butt to Zambrano's board.",
+    "end_time": "10:40",
+    "genre": "Thriller",
+    "mood": "Sinister",
+    "name": "The Lair",
+    "scene_number": 14,
+    "setting": "Basement Surveillance Room",
+    "start_time": "08:45"
+  },
+  {
+    "characters": [
+      "Zambrano",
+      "Cleaner"
+    ],
+    "description": "A young man cleans the large glass windows of the lobby. Zambrano, pacing and talking on his phone, becomes agitated and confronts the cleaner, gesturing angrily.",
+    "end_time": "12:03",
+    "genre": "Drama",
+    "mood": "Aggressive",
+    "name": "Lobby Confrontation",
+    "scene_number": 15,
+    "setting": "Building Lobby",
+    "start_time": "10:41"
+  },
+  {
+    "characters": [
+      "Eliseo",
+      "Elderly Resident",
+      "Zambrano"
+    ],
+    "description": "A montage shows Eliseo's manipulative and voyeuristic activities: he visits an elderly resident, charming and unsettling her; he spies on another resident's computer; and from his rooftop, he uses binoculars to watch people in the opposite building, focusing on Zambrano.",
+    "end_time": "13:54",
+    "genre": "Thriller",
+    "mood": "Suspenseful",
+    "name": "Manipulation and Spying",
+    "scene_number": 16,
+    "setting": "Various Apartments and Rooftop",
+    "start_time": "12:04"
+  },
+  {
+    "characters": [
+      "Eliseo"
+    ],
+    "description": "Eliseo goes about his daily routine, then returns to his basement lair. He surveys his extensive surveillance boards, which detail the lives of all the building's residents, and turns to the camera with a sinister, triumphant smile.",
+    "end_time": "16:03",
+    "genre": "Thriller",
+    "mood": "Sinister",
+    "name": "The Mastermind",
+    "scene_number": 17,
+    "setting": "Basement Surveillance Room",
+    "start_time": "13:55"
+  }
+]
