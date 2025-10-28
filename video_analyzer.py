@@ -4,8 +4,6 @@ import os
 import json
 import google.generativeai as genai
 from dotenv import load_dotenv
-import argparse
-from tqdm import tqdm
 
 def extract_frames(video_path, frames_per_second=1):
     """Efficiently extracts frames from a video file by jumping to specific frame numbers and returns them as a list of base64 encoded strings."""
@@ -32,15 +30,13 @@ def extract_frames(video_path, frames_per_second=1):
 
         base64_frames = []
         
-        with tqdm(total=len(frame_indices), desc="Extracting Frames") as pbar:
-            for frame_index in frame_indices:
-                video.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
-                success, frame = video.read()
-                if success:
-                    _, buffer = cv2.imencode(".jpg", frame)
-                    base64_frame = base64.b64encode(buffer).decode("utf-8")
-                    base64_frames.append(base64_frame)
-                pbar.update(1)
+        for frame_index in frame_indices:
+            video.set(cv2.CAP_PROP_POS_FRAMES, frame_index)
+            success, frame = video.read()
+            if success:
+                _, buffer = cv2.imencode(".jpg", frame)
+                base64_frame = base64.b64encode(buffer).decode("utf-8")
+                base64_frames.append(base64_frame)
 
     finally:
         if 'video' in locals() and video.isOpened():
@@ -103,56 +99,3 @@ def analyze_video_frames(base64_frames):
     except Exception as e:
         print(f"Error calling Gemini API: {e}")
         return None
-
-def main():
-    """Main function to run the video analysis."""
-    parser = argparse.ArgumentParser(description="Analyze a video file to generate scene-by-scene metadata.")
-    parser.add_argument("video_path", help="Path to the video file to be analyzed.")
-    parser.add_argument("--fps", type=int, default=1, help="Number of frames to extract per second.")
-    parser.add_argument("--output", help="Path to save the output JSON file.")
-    args = parser.parse_args()
-
-    # Load environment variables and configure API key
-    load_dotenv()
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
-        print("Error: GEMINI_API_KEY not found. Please set it in your .env file.")
-        return
-    genai.configure(api_key=api_key)
-
-    print(f"Starting analysis for: {args.video_path}")
-    video_frames = extract_frames(args.video_path, frames_per_second=args.fps)
-
-    if video_frames:
-        metadata_json_string = analyze_video_frames(video_frames)
-        if metadata_json_string:
-            try:
-                # Parse the JSON output
-                metadata = json.loads(metadata_json_string)
-
-                # Determine output path
-                if args.output:
-                    output_path = args.output
-                else:
-                    base_name = os.path.splitext(os.path.basename(args.video_path))[0]
-                    output_path = f"{base_name}_analysis.json"
-
-                # Save the JSON to a file
-                with open(output_path, 'w', encoding='utf-8') as f:
-                    json.dump(metadata, f, ensure_ascii=False, indent=2)
-                
-                print(f"\nAnalysis successfully saved to: {output_path}")
-
-                # Pretty-print the JSON to console
-                print("\n--- Video Scene Analysis Results ---")
-                print(json.dumps(metadata, indent=2))
-                print("--- End of Results ---")
-
-            except json.JSONDecodeError:
-                print("\n--- Raw API Response ---")
-                print(metadata_json_string)
-                print("--- End of Response ---")
-
-
-if __name__ == "__main__":
-    main()

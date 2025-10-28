@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scene Segmentation</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2em;
+        }
+        #results {
+            white-space: pre-wrap;
+            background-color: #f4f4f4;
+            padding: 1em;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Scene Segmentation</h1>
+    <form id="upload-form" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    <h2>Results</h2>
+    <div id="results-container">
+        <pre id="results"></pre>
+    </div>
+
+    <script>
+        document.getElementById('upload-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+
+            const form = event.target;
+            const formData = new FormData(form);
+            const resultsContainer = document.getElementById('results');
+
+            resultsContainer.textContent = 'Analyzing...';
+
+            try {
+                const response = await fetch('/analyze', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Something went wrong');
+                }
+
+                const data = await response.json();
+                resultsContainer.textContent = JSON.stringify(data, null, 2);
+
+            } catch (error) {
+                resultsContainer.textContent = `Error: ${error.message}`;
+            }
+        });
+    </script>
+</body>
+</html>
