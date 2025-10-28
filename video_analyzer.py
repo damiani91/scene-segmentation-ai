@@ -14,7 +14,7 @@ def extract_frames(video_path, frames_per_second=1):
     try:
         video = cv2.VideoCapture(video_path)
         if not video.isOpened():
-            print(f"Error: Could not open video file {video_path}")
+            print(f"Error: Could not open video file {video_path}. This might be due to missing video codecs (especially for formats like .mkv). Please ensure you have the necessary codecs installed in your environment.")
             return []
 
         total_frames = int(video.get(cv2.CAP_PROP_FRAME_COUNT))
