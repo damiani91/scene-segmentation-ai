@@ -1,0 +1,153 @@
+[
+  {
+    "scene_number": 1,
+    "start_time": "00:02",
+    "end_time": "01:08",
+    "name": "The Meticulous Chef",
+    "genre": "Drama",
+    "description": "A man in an apron meticulously prepares a pasta dish in a modern, red-accented kitchen. He sets a kitchen timer, tends to a pot on the stove, sips a glass of red wine, and carefully plates the spaghetti with sauce, olive oil, cheese, and a basil garnish.",
+    "characters": [
+      "The Man"
+    ],
+    "mood": "Calm",
+    "setting": "Kitchen"
+  },
+  {
+    "scene_number": 2,
+    "start_time": "01:09",
+    "end_time": "01:22",
+    "name": "A Solitary Feast",
+    "genre": "Drama",
+    "description": "The man sits alone at a glass dining table in a modern apartment at night. He admires the pasta he cooked, smiles with satisfaction, and begins to eat, pairing it with his red wine.",
+    "characters": [
+      "The Man"
+    ],
+    "mood": "Content",
+    "setting": "Dining Room"
+  },
+  {
+    "scene_number": 3,
+    "start_time": "01:23",
+    "end_time": "01:37",
+    "name": "Anxious Preparations",
+    "genre": "Mystery",
+    "description": "Now in a different outfit, the man nervously adjusts a decorative centerpiece on the dining table. He looks around as if waiting for someone, then walks out of the room.",
+    "characters": [
+      "The Man"
+    ],
+    "mood": "Anxious",
+    "setting": "Dining Room"
+  },
+  {
+    "scene_number": 4,
+    "start_time": "01:38",
+    "end_time": "01:51",
+    "name": "The Janitor",
+    "genre": "Drama",
+    "description": "The man, now dressed as a janitor, is outside the entrance of a modern apartment building, hosing down the pavement. He finishes his work, coils the hose, and looks up at the building.",
+    "characters": [
+      "The Man"
+    ],
+    "mood": "Neutral",
+    "setting": "Apartment Building Entrance"
+  },
+  {
+    "scene_number": 5,
+    "start_time": "01:52",
+    "end_time": "02:43",
+    "name": "The New Tenants",
+    "genre": "Drama",
+    "description": "A montage shows various people arriving at the building with luggage. The manager watches as movers bring a large TV box into an apartment, where he interacts with the new residents.",
+    "characters": [
+      "The Manager",
+      "New Tenants",
+      "Movers"
+    ],
+    "mood": "Bustling",
+    "setting": "Apartment Building Entrance and Hallway"
+  },
+  {
+    "scene_number": 6,
+    "start_time": "02:44",
+    "end_time": "03:12",
+    "name": "Opening Credits",
+    "genre": "Title Sequence",
+    "description": "A stylized opening credit sequence featuring animated Venus flytraps and the names of the main actors, set against a dark background.",
+    "characters": [],
+    "mood": "Mysterious",
+    "setting": "N/A"
+  },
+  {
+    "scene_number": 7,
+    "start_time": "03:13",
+    "end_time": "04:26",
+    "name": "The Manager's Domain",
+    "genre": "Drama",
+    "description": "The manager, Eliseo, is shown performing his duties in and around the lobby. He polishes a plaque, has a tense conversation with a lawyerly resident, handles mail for another, and instructs a repairman outside.",
+    "characters": [
+      "Eliseo",
+      "Mr. Zambrano",
+      "Young Resident",
+      "Repairman"
+    ],
+    "mood": "Observational",
+    "setting": "Building Lobby and Entrance"
+  },
+  {
+    "scene_number": 8,
+    "start_time": "04:27",
+    "end_time": "04:52",
+    "name": "Night Business",
+    "genre": "Mystery",
+    "description": "On a cobblestone street at night, Eliseo interacts with a group of homeless people who are sorting through items in shopping carts, appearing to direct them.",
+    "characters": [
+      "Eliseo",
+      "Homeless People"
+    ],
+    "mood": "Clandestine",
+    "setting": "City Street at Night"
+  },
+  {
+    "scene_number": 9,
+    "start_time": "04:53",
+    "end_time": "05:45",
+    "name": "The Spy",
+    "genre": "Suspense",
+    "description": "Eliseo's duplicitous nature is revealed. He gives a key to a resident, then secretly enters another resident's car in the garage to plant a listening device. Afterwards, he practices a range of emotional expressions in the elevator mirror.",
+    "characters": [
+      "Eliseo",
+      "Female Resident"
+    ],
+    "mood": "Deceptive",
+    "setting": "Lobby, Parking Garage, and Elevator"
+  },
+  {
+    "scene_number": 10,
+    "start_time": "05:46",
+    "end_time": "07:33",
+    "name": "A Day in the Life",
+    "genre": "Drama",
+    "description": "A montage of Eliseo's day shows his varied activities: tending to his Venus flytraps on the rooftop, charming a resident's child with a gift, sweeping, listening at apartment doors, and having tense or awkward encounters with residents in the elevator and their homes.",
+    "characters": [
+      "Eliseo",
+      "Mother and Son",
+      "Mr. Zambrano",
+      "Female Resident"
+    ],
+    "mood": "Intrusive",
+    "setting": "Various locations within the apartment building"
+  },
+  {
+    "scene_number": 11,
+    "start_time": "07:34",
+    "end_time": "08:50",
+    "name": "The Control Center",
+    "genre": "Thriller",
+    "description": "Eliseo enters a hidden room in the building's basement. He puts on headphones and listens to a residents' meeting where they discuss him. He then examines a massive surveillance board covered with photos, documents, and personal items of every resident, adding a new piece of 'evidence' with a sinister smile.",
+    "characters": [
+      "Eliseo"
+    ],
+    "mood": "Sinister",
+    "setting": "Basement Control Room"
+  }
+]
